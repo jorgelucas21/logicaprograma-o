@@ -16,13 +16,16 @@ Inicio
    leia(y)
    escreva("Informe a medida do triângulo z : ")
    leia(z)
-   se(x=y) e (y=z) entao
-      escreva("Triângulo Equilátero")
-   senao
-      se(x<>) e (y<>) e (x<>z) entao
-         escreva("Triângulo Escaleno")
+   se(x<y+z) e (y<x+z) e (z<x+y) entao
+      escreval("Esses valores formam um triângulo")
+      se (x=y) e (y=z) entao
+         escreva("Triângulo Equilátero")
       senao
-         escreva("Triângulo Isósceles")
+         se(x=y) e (z<>x) e (z<>y) entao
+            escreva("Triângulo Isósceles")
+         senao
+            escreva("Triângulo Escaleno")
+         fimse
       fimse
    fimse
 Fimalgoritmo
