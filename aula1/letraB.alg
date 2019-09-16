@@ -6,14 +6,12 @@ Algoritmo "semnome"
 // Data atual  : 27/08/2019
 Var
    // Seção de Declarações das variáveis
-   num1:real
-   num2:real
-   resultado:real
+   n1:real
+   D:real
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva("Insira o numero :")
-   leia(num1)
-   escreva("Insira o mesmo numero novamente :")
-   leia(num2)
-   escreva("Resultado =", (num1 * num2))
+   escreva("Informe um numero: ")
+   leia(n1)
+   D<-n1+n1
+   escreva("O dobro de", n1," é: ",D)
 Fimalgoritmo

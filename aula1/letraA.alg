@@ -10,8 +10,9 @@ Var
    idade:inteiro
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva("Entre com o nome :")
+   escreva("Entre com o nome: ")
    leia(nome)
-   escreva("Entre com a idade :")
+   escreva("Entre com a idade: ")
    leia(idade)
+   escreva("Seu nome é ", nome," e você tem ", idade," anos")
 Fimalgoritmo

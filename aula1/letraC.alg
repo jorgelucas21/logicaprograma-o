@@ -6,14 +6,13 @@ Algoritmo "semnome"
 // Data atual  : 27/08/2019
 Var
    // Seção de Declarações das variáveis
-   base:real
-   altura:real
-   área:real
+   b:real
+   alt:real
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
    escreva("Insira a base :")
-   leia(base)
+   leia(b)
    escreva("Insira a altura :")
-   leia(altura)
-   escreva("Área =", (base * altura/2))
+   leia(alt)
+   escreva("A área do triângulo é: ", (b * alt)/2)
 Fimalgoritmo

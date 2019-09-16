@@ -7,12 +7,10 @@ Algoritmo "semnome"
 Var
    // Seção de Declarações das variáveis
    raio:real
-   perimetro:real
-   area:real
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
    escreva("Insira o raio :")
    leia(raio)
-   escreva("Valor do perimetro =", 2*3.1415*raio)
-   escreva("Valor da area =", 3.1415*raio^2)
+   escreval("Valor do perímetro do círculo é: ", 2*3.1415*raio)
+   escreva("Valor da área do círculo é: ", 3.1415*raio^2)
 Fimalgoritmo

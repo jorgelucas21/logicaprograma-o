@@ -9,7 +9,7 @@ Var
    total:real
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva("Insira o total de vendas :")
+   escreva("Informe o total de vendas: ")
    leia(total)
-   escreva("Comissão do Vendedor =", 10*total/100)
+   escreva("Comissão do Vendedor= ", 10*total/100)
 Fimalgoritmo

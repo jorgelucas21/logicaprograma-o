@@ -3,19 +3,20 @@ Algoritmo "semnome"
 // Professor   : Antonio Carlos Nicolodi
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 27/08/2019
+// Data atual  : 16/09/2019
 Var
    // Seção de Declarações das variáveis
-   salar:real
-   reaj:real
-   sr:real
+   num:real
+   num2:real
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva("Informe o valor do salário: ")
-   leia(salar)
-   escreva("Informe o percentual do reajuste: ")
-   leia(reaj)
-   sr<-salar*reaj
-   escreval("O salário sofrerá um reajuste de: ",sr)
-   escreva("Salário reajustado: ",salar+sr)
+   escreva("Informe o prineiro número : ")
+   leia(num)
+   escreva("Informe o segundo número : ")
+   leia(num2)
+   se(num<num2)entao
+      escreva("O maior número é : ", num2)
+   senao
+      escreva("O maior número é : ",num)
+   fimse
 Fimalgoritmo

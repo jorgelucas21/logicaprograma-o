@@ -10,9 +10,9 @@ Var
    preco:real
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva("Quantidade de produtos :")
+   escreva("Quantidade de produtos: ")
    leia(quant)
-   escreva("Preço do(s) produto(s) :")
+   escreva("Preço do(s) produto(s): ")
    leia(preco)
-   escreva("Valor a ser pago =", quant*preco)
+   escreva("Valor a ser pago= ", quant*preco)
 Fimalgoritmo

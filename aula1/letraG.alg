@@ -10,9 +10,9 @@ Var
    larg:real
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva("Insira o comprimento em m2 :")
+   escreva("Informe o comprimento em m2: ")
    leia(comp)
-   escreva("Insira a largura em m2 :")
+   escreva("Informe a largura em m2: ")
    leia(larg)
-   escreva("Área da Sala de Aula em m2 =", comp*larg)
+   escreva("Área da Sala de Aula em m2= ",comp*larg)
 Fimalgoritmo
